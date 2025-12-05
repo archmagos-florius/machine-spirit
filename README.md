@@ -41,13 +41,13 @@ The sacred directory now resides within the `/home` forge.
 The Forge-Masters have provided runes of power to maintain the plugin cohorts:
 
 ```bash
-make -C ~/machine-spirit plug-install
+make -C ~/machine-spirit install
 ```
 
 > *Summons and installs all vim-plug warrior spirits.*
 
 ```bash
-make -C ~/machine-spirit plug-update
+make -C ~/machine-spirit update
 ```
 
 > *Updates all plugins to their most refined cybernetic forms.*
