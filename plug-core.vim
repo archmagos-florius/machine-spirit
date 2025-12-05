@@ -7,6 +7,7 @@ Plug 'junegunn/fzf.vim'
 " LSP/completion engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" (we'll add more later as needed)
+" Grubox themeing
+Plug 'morhetz/gruvbox'
 
 call plug#end()
