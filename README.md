@@ -1,9 +1,3 @@
-Absolutely—here is your **Adeptus Mechanicus–themed README.md** for your `machine-spirit` Vim configuration repository.
-
-It mixes Warhammer 40K Mechanicus liturgy with clear technical instructions so you never forget how to operate or maintain your vim config.
-
----
-
 # ⚙️ *MACHINE–SPIRIT*
 
 ### *A Vim Configuration for the Faithful Servants of the Omnissiah*
