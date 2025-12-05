@@ -79,6 +79,63 @@ These extensions empower the Lexmechanic (you) with:
 * **PHP / Laravel machine-language communion**
 
 ---
+## ❖ **Themeing: Rites of Invocation**
+Absolutely — here is a **Warhammer 40K Adeptus Mechanicus–styled README section** explaining theming for your `machine-spirit` Vim configuration.
+
+You can paste this directly under a section header like **"Rites of Theming"** in your README.
+
+---
+
+# 🔥 **Rites of Chromatic Invocation (Theming)**
+
+*“Color is the language of the Machine-Spirit. To configure it is to commune with its essence.”*
+
+The Machine-Spirit may be adorned with sacred color-schemes to improve visibility, clarity, and overall ritual efficiency within the Vim sanctum.
+
+This configuration uses **lightweight, reliable, no-dependency themes** suitable for any terminal forge.
+
+---
+
+## ⚙️ **Sanctioned Theme Plugin**
+
+### **1. Gruvbox — Rite of Earth & Shadow**
+
+```
+Plug 'morhetz/gruvbox'
+```
+
+A venerable scheme—stable, readable, and compatible with all terminal worlds.
+
+---
+
+## 📜 **Ritual of Activation**
+
+Within `theme.vim`, the sacred invocation is inscribed:
+
+```vim
+set termguicolors      " Allow 24-bit color communion
+set background=dark    " Prepare the ritual for darkness
+colorscheme gruvbox    " or: colorscheme <theme-name>
+```
+
+Your `core.vim` ensures the ritual is performed:
+
+```vim
+execute 'source ' . s:cfgdir . '/theme.vim'
+```
+
+---
+
+## 🗃️ **Directory of Holy Aesthetics**
+
+Your repository now contains:
+
+```
+machine-spirit/
+  theme.vim          ← Holds colorscheme invocations
+```
+
+---
 
 ## ❖ **Keybindings: Rites of Invocation**
 
