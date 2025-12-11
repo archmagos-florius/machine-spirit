@@ -8,18 +8,6 @@ set signcolumn=yes
 " Use better completion menu behavior
 set completeopt=menuone,noinsert,noselect
 
-" Helper for <Tab> completion behavior
-function! s:check_backspace() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1] =~# '\s'
-endfunction
-
-" Tab / Shift-Tab to navigate completion and trigger Coc
-inoremap <silent><expr> <Tab>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_backspace() ? "\<Tab>" :
-      \ coc#refresh()
-
 inoremap <silent><expr> <S-Tab>
       \ pumvisible() ? "\<C-p>" : "\<C-h>"
 

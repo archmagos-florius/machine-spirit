@@ -2,11 +2,6 @@
 let mapleader = " "
 let maplocalleader = " "
 
-" Quick save / quit
-nnoremap <leader>w :w<CR>
-nnoremap <leader>q :q<CR>
-nnoremap <leader>x :x<CR>
-
 " Easier window navigation (Ctrl + h/j/k/l)
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
