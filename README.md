@@ -79,22 +79,6 @@ These extensions empower the Lexmechanic (you) with:
 * **PHP / Laravel machine-language communion**
 
 ---
-## ❖ **Themeing: Rites of Invocation**
-Absolutely — here is a **Warhammer 40K Adeptus Mechanicus–styled README section** explaining theming for your `machine-spirit` Vim configuration.
-
-You can paste this directly under a section header like **"Rites of Theming"** in your README.
-
----
-
-# 🔥 **Rites of Chromatic Invocation (Theming)**
-
-*“Color is the language of the Machine-Spirit. To configure it is to commune with its essence.”*
-
-The Machine-Spirit may be adorned with sacred color-schemes to improve visibility, clarity, and overall ritual efficiency within the Vim sanctum.
-
-This configuration uses **lightweight, reliable, no-dependency themes** suitable for any terminal forge.
-
----
 
 ## ⚙️ **Sanctioned Theme Plugin**
 
@@ -173,10 +157,3 @@ machine-spirit/
   fzf-conf.vim          ← Rites of Fuzzy Searching
   Makefile              ← Forge rituals
 ```
-
-Each scroll is sourced solemnly and individually to preserve order and purity.
-* A startup echo message in Vim like:
-
-  > *“Equipping settings to the Machine-Spirit…”*
-
-Just say the word.
