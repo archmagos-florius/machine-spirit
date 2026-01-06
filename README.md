@@ -175,37 +175,6 @@ machine-spirit/
 ```
 
 Each scroll is sourced solemnly and individually to preserve order and purity.
-
----
-
-## ❖ **Blessings of the Omnissiah**
-
-The Machine-Spirit has been calibrated for:
-
-* **Supreme portability** — move your Vim environment across machines effortlessly
-* **Automatic plugin installation** — no manual rites required
-* **Centralized Coc language management** — single list for all languages
-* **Strict modularity** — each module may be edited without disturbing the whole
-
-*"To break config is heresy.
-To debug config is devotion.
-To maintain config is worship."*
-
----
-
-## ❖ *Final Benediction*
-
-> *“May your buffers remain unsullied,
-> your diagnostics silent,
-> and your Machine-Spirit forever appeased.”*
-> — *Magos-Engineer Vimarchus, Forge World Stackoverflowus*
-
----
-
-If you want, I can also add:
-
-* ASCII art of the Adeptus Mechanicus cog
-* A badge system with “Rites Completed”
 * A startup echo message in Vim like:
 
   > *“Equipping settings to the Machine-Spirit…”*
