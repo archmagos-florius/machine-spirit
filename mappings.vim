@@ -2,12 +2,6 @@
 let mapleader = " "
 let maplocalleader = " "
 
-" Easier window navigation (Ctrl + h/j/k/l)
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
-
 " Resize splits
 nnoremap <leader><Left>  :vertical resize -5<CR>
 nnoremap <leader><Right> :vertical resize +5<CR>
