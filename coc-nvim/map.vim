@@ -1,19 +1,7 @@
-" Assumes coc.nvim is installed via vim-plug.
-
-" Recommended for coc
-set updatetime=300
-set shortmess+=c
-set signcolumn=yes
-
-" Use better completion menu behavior
-set completeopt=menuone,noinsert,noselect
-
-inoremap <silent><expr> <S-Tab>
-      \ pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <silent><expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 " Confirm completion
-inoremap <silent><expr> <CR>
-      \ pumvisible() ? coc#_select_confirm() : "\<CR>"
+inoremap <silent><expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
 
 " Go to definition / type / implementation / references
 nnoremap <silent> gd :call CocActionAsync('definition')<CR>
